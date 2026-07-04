@@ -1,5 +1,5 @@
 *{
-    margin: 9;
+    margin: 1;
     padding: 0;
     box-sizing: border-box;
 }
@@ -43,7 +43,6 @@ h2{
 }
 
 .hero-con img{
-    width: 300px;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -105,7 +104,7 @@ p{
 .hero-con img{
     
     width: 80%;
-    height: 70%;
+    height: auto;
 }
 
 /*overflow*/
@@ -127,6 +126,6 @@ p{
 .logo{
     position: absolute;
     top:10px;
-    left: 600px;
+    right: 10px;
     
 }

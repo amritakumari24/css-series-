@@ -6,14 +6,55 @@
     <title>Document</title>
 
     <style>
-
+    .box1{
+        background-color: yellowgreen;
+        width: 250px;
+        height: 250px;
+        /* margin: 20px; */
+        position:absolute;
+        left: 100px;
+        z-index: 1;
+        
+    }
+.box2{
+        background-color: skyblue;
+        width: 250px;
+        height: 250px;
+        /* margin: 20px; */
+         position:absolute;
+        left: 200px;
+        top:80px;
+        z-index: 2;
+    }
+.box3{
+        background-color: burlywood;
+        width: 250px;
+        height: 250px;
+        /* margin: 20px; */
+         position:absolute;
+        left: 300px;
+        top: 130px;
+        z-index: 3;
+    }
 
 
     </style>
 </head>
 <body>
-    <div class="">
+  
+    <!-- z-index-->
 
+
+    <div class="box1">
+     A box
     </div>
+ <div class="box2">
+     B box
+    </div>
+
+     <div class="box3">
+     C box
+    </div>
+
 </body>
 </html>
