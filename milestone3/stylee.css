@@ -70,7 +70,8 @@ section{
 
 .hero-con{
     border: 2px solid rgb(145, 145, 230);
-    outline: 3px dashed rgb(237, 118, 118);
+    /* outline: 3px dashed rgb(237, 118, 118); */
+    outline: 3px dashed rgb(240, 142, 142);
 }
 
 h1{
