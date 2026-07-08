@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css" />
+  </head>
+  <body>
+    <header class="head">
+      <h1>Submit Feedback</h1>
+      <hr />
+      <nav id="n">
+        <ul>
+          <li><a href="/milestone3/indexx.html">Home</a> |</li>
+          <li><a href="../milestone4/profile.html"> Profile</a> |</li>
+          <li><a href="/milestone3/courses.html"> Courses</a> |</li>
+          <li><a href="../milestone4/feedback.html"> Feedback</a> |</li>
+          <li><a href="../milestone5/gradetable.html">Grades Table </a> |</li>
+          <li><a href="/milestone3/contact.html"> Contact Us</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <form action="/submit" method="post">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fullname"> Full Name: </label>
+            <input
+              type="text"
+              name="fullname"
+              placeholder="Enter you name..."
+              required
+              autocomplete="name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email..."
+              required
+              autocomplete="email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phonenumber"> Phone Number:</label>
+            <input
+              type="tel"
+              name="phonenumber"
+              placeholder="Enter phone number.."
+              autocomplete="tel"
+            />
+          </div>
+          <div class="form-group">
+            <label>Rating:</label>
+            <input name="rating" type="range" min="1" max="10" value="7" />
+          </div>
+          <div class="form-group">
+            <label for="feedbacktype">Feedback Type:</label>
+            <select name="feedbacktype">
+              <option value="general">General Feedback</option>
+              <option value="course">Course Feedback</option>
+              <option value="portal">Portal Feedback</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="liked"> Areas you like: </label>
+            <br>
+            <label> 
+                Web Design
+              <input type="checkbox" name="liked" value="design" />
+            </label>
+            <br>
+            <label>
+              Navigation
+              <input type="checkbox" name="liked" value="navigation" />
+            </label>
+            <br>
+            <label>
+              Content <input type="checkbox" name="liked" value="content" />
+            </label>
+            <br>
+            <label
+              >Courses <input type="checkbox" name="liked" value="courses" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label>Would you recommend this portal?: </label>
+            <br>
+            <label
+              >Yes
+              <input type="radio" name="recommend" value="yes" />
+            </label>
+            <br>
+            <label
+              >No
+              <input type="radio" name="recommend" value="no" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label
+              >Feedback:
+              <textarea
+                name="feedback"
+                placeholder="Write your feedback here.."
+              ></textarea>
+            </label>
+            <br /><br />
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <hr />
+    <footer>
+      <small> © 2026 Student Portal. All Rights Reserved</small>
+    </footer>
+  </body>
+</html>
