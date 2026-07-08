@@ -67,7 +67,7 @@ form{
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,.2);
     width: 400px;
-    /* justify-self: center;     */
+    justify-self: center;    
 
 }
 button{
@@ -114,4 +114,7 @@ box-shadow:0 0 5px rgba(44,62,80,.3);
 textarea{
     resize: vertical;
     min-height: 50px;
+}
+h1{
+    text-transform: uppercase;
 }
