@@ -37,13 +37,50 @@
         z-index: 3;
     }
 
+   h1 {
+    animation: fadeIn 4s;
+}
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+
+    animation: moveBox 3s;
+}
+
+@keyframes moveBox {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(200px);
+    }
+}
+
+img{
+    width:200px;
+    
+
+}
     </style>
 </head>
 <body>
   
     <!-- z-index-->
-
+<!-- 
 
     <div class="box1">
      A box
@@ -54,7 +91,17 @@
 
      <div class="box3">
      C box
-    </div>
+    </div> -->
 
+
+    <!-- animation -->
+
+    <h1>
+        Hello Css
+    </h1>
+
+    <div class="box"></div>
+
+    <img src="a.jpeg"/>
 </body>
 </html>
