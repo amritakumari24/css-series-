@@ -105,3 +105,15 @@ tbody tr:nth-child(odd){
     text-decoration: underline;
 }
 
+h1{
+    animation: fadeIn 2s;
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+     to {
+        opacity: 1;
+     }
+}

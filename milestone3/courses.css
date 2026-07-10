@@ -149,3 +149,15 @@ flex-wrap:wrap;
     }
 } */
 
+h1{
+    animation: fadeIn 2s;
+
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+     to {
+        opacity: 1;
+     }
+}
