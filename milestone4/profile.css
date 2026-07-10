@@ -169,3 +169,7 @@ h1{
         opacity: 1;
      }
 }
+h2::selection{
+   background-color: #64819c; 
+   color: white;
+}

@@ -132,3 +132,7 @@ h1{
         opacity: 1;
      }
 }
+input:checked{
+    accent-color: green;
+}
+

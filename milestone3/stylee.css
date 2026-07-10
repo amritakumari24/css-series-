@@ -146,3 +146,16 @@ h1{
         opacity: 1;
      }
 }
+#logoS{
+    border-radius: 50%;
+    width:80px;
+    object-fit: cover;
+    position: absolute;
+    left: 200px;
+    top:60px;
+    cursor: pointer;
+}
+a #logoS:active{
+    transform: rotate(20deg);
+}
+
