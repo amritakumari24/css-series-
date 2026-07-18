@@ -1,5 +1,5 @@
 *{
-    margin: 1;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -26,10 +26,13 @@ body{
 
 #n ul{
     list-style: none;
+    display: flex;
+    gap:20px;
+    /* padding: 7px; */
+    justify-content: center;
+
 }
-#n li{
-    display: inline;
-}
+
 
 #n a{
     color: #fff;
@@ -159,3 +162,12 @@ a #logoS:active{
     transform: rotate(20deg);
 }
 
+@media(max-width:768px){
+    #n ul{
+        flex-direction: column;
+    }
+    .hero-con{
+        flex-direction: column;
+
+    }
+}

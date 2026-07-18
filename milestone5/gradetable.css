@@ -118,3 +118,10 @@ h1{
      }
 }
 
+@media (max-width: 768px){
+#n ul{
+flex-direction: column;
+}
+
+
+}
